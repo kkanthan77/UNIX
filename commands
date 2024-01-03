@@ -1,9 +1,0 @@
--- Find all the text files
-    find . -name *.txt | wc
-
--- List all the directories below user home directory
-    type d => list the directories
-    type f => list the files
-
--- List all the files below user home directory
-    find . -namae "*" -type f

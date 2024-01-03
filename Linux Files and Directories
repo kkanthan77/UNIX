@@ -1,0 +1,75 @@
+-- Find all the text files
+    find . -name *.txt | wc
+
+-- List all the directories below user home directory
+    type d => list the directories
+    type f => list the files
+
+-- List all the files below user home directory
+    find . -namae "*" -type f
+
+-- Create a new file
+    touch directory/<filename>
+
+-- Remove the file
+   rm <file name>
+   rm -rf <file name>
+        -- snapshot
+            Files are backed-up so that in scenarios where there needs a back-up, it can be recovered
+
+-- Create a directory
+   mkdir
+
+-- Remove directory 
+   rmdir
+   rm -rf / rm -f
+   rm -r => Recursive removal 
+
+
+-- Change the permissions or properties of  files and directory
+        chmod => Change file mode bits
+    Two ways to use chmod
+        chmod 777 <filename> => Give all permissions to the users
+        chmod -R 744 .       => Gives recursive permissions to all the fils in the directory
+                                Files get the similar access
+-- chmod for user
+
+    u : primary user
+    g : group
+    o : others or public
+
+    + : Give permission
+    - : remove permission
+
+-- move files
+    mv one_directory another_directory
+    cp : copy
+
+-- Rename files
+    mv <old_file> <nwe_file>
+-- Open and edit the content of the file
+
+    -- Word documents can be edited using "oofice" which is similar to MS Office suite
+
+    -- Text files
+        vi <file name>
+
+-- Hide files
+    create file with ".file name". It will be automatically hidden
+        
+-- Display the content of file 
+    cat <file_name>
+-- Count the words in a file
+    wc <file name>
+      wc sample.tcl
+      7  31 119 sample.tcl
+      7  : # lines
+      31 : # words
+    119  : # Characters
+
+-- Create directories in a single go/ Creating child directories using a parent undefined directory
+
+    mkdir -p PD/DATA/FILES
+    "p" is used to create all the directories in a single shot
+
+    
