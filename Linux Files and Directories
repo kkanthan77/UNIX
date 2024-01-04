@@ -72,4 +72,14 @@
     mkdir -p PD/DATA/FILES
     "p" is used to create all the directories in a single shot
 
+-- Size of the all contents in the current directory
+
+    du -sh *
+-- Export entire contents to a text file
+    ">" and "|&tee" are used to transfer the contents to a text file
+
+    ls > sample.txt
+    ls |&tee sample2.txt
+
+
     
